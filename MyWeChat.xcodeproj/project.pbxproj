@@ -15,6 +15,8 @@
 		E97065DA2421BA1B00ABCBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97065D82421BA1B00ABCBF3 /* LaunchScreen.storyboard */; };
 		E97065E52421BA1B00ABCBF3 /* MyWeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97065E42421BA1B00ABCBF3 /* MyWeChatTests.swift */; };
 		E97065F02421BA1B00ABCBF3 /* MyWeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97065EF2421BA1B00ABCBF3 /* MyWeChatUITests.swift */; };
+		E97065FE2421BB3A00ABCBF3 /* UserLogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97065FD2421BB3A00ABCBF3 /* UserLogIn.storyboard */; };
+		E9C5D623242225B000BD4CE0 /* UserLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C5D622242225B000BD4CE0 /* UserLogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E97065EB2421BA1B00ABCBF3 /* MyWeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97065EF2421BA1B00ABCBF3 /* MyWeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeChatUITests.swift; sourceTree = "<group>"; };
 		E97065F12421BA1B00ABCBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97065FD2421BB3A00ABCBF3 /* UserLogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserLogIn.storyboard; sourceTree = "<group>"; };
+		E9C5D622242225B000BD4CE0 /* UserLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E97065CF2421BA1A00ABCBF3 /* SceneDelegate.swift */,
 				E97065D12421BA1A00ABCBF3 /* ViewController.swift */,
 				E97065D32421BA1A00ABCBF3 /* Main.storyboard */,
+				E97065FD2421BB3A00ABCBF3 /* UserLogIn.storyboard */,
+				E9C5D622242225B000BD4CE0 /* UserLogInViewController.swift */,
 				E97065D62421BA1B00ABCBF3 /* Assets.xcassets */,
 				E97065D82421BA1B00ABCBF3 /* LaunchScreen.storyboard */,
 				E97065DB2421BA1B00ABCBF3 /* Info.plist */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E97065DA2421BA1B00ABCBF3 /* LaunchScreen.storyboard in Resources */,
+				E97065FE2421BB3A00ABCBF3 /* UserLogIn.storyboard in Resources */,
 				E97065D72421BA1B00ABCBF3 /* Assets.xcassets in Resources */,
 				E97065D52421BA1A00ABCBF3 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 				E97065D22421BA1A00ABCBF3 /* ViewController.swift in Sources */,
 				E97065CE2421BA1A00ABCBF3 /* AppDelegate.swift in Sources */,
 				E97065D02421BA1A00ABCBF3 /* SceneDelegate.swift in Sources */,
+				E9C5D623242225B000BD4CE0 /* UserLogInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW7PP666A7;
 				INFOPLIST_FILE = MyWeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW7PP666A7;
 				INFOPLIST_FILE = MyWeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +480,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW7PP666A7;
 				INFOPLIST_FILE = MyWeChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,6 +502,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW7PP666A7;
 				INFOPLIST_FILE = MyWeChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +523,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW7PP666A7;
 				INFOPLIST_FILE = MyWeChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,6 +543,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW7PP666A7;
 				INFOPLIST_FILE = MyWeChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

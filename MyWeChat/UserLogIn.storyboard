@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Oh-dP-blx">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="mZz-Ms-gJX">
+            <objects>
+                <viewController id="6Oh-dP-blx" customClass="ViewController" customModule="MyWeChat" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CXU-w0-9m3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage_8p" translatesAutoresizingMaskIntoConstraints="NO" id="fQU-n8-bU2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ugx-Tv-2x2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="588.66666666666663"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tlg-ad-au4">
+                                <rect key="frame" x="0.0" y="588.66666666666663" width="414" height="147.33333333333337"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BK2-Lp-Ld2">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="147.33333333333334"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJg-8Q-ULK">
+                                                <rect key="frame" x="234" y="47.333333333333371" width="120" height="40"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="gK6-vT-fHr"/>
+                                                    <constraint firstAttribute="height" constant="40" id="zD3-Tu-Wor"/>
+                                                </constraints>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="注册">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" metaFont="system" size="16"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5D-wz-yot">
+                                                <rect key="frame" x="60" y="47.333333333333371" width="120" height="40"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="MzI-og-a60"/>
+                                                    <constraint firstAttribute="width" constant="120" id="Tng-Ez-Q03"/>
+                                                </constraints>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="登录">
+                                                            <attributes>
+                                                                <color key="NSColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                                                <font key="NSOriginalFont" metaFont="system" size="16"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="v5D-wz-yot" secondAttribute="bottom" constant="60" id="NHh-F4-hGJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="DJg-8Q-ULK" secondAttribute="bottom" constant="60" id="fHN-Kj-C5g"/>
+                                            <constraint firstItem="v5D-wz-yot" firstAttribute="leading" secondItem="BK2-Lp-Ld2" secondAttribute="leading" constant="60" id="nhp-sT-fMb"/>
+                                            <constraint firstAttribute="trailing" secondItem="DJg-8Q-ULK" secondAttribute="trailing" constant="60" id="tcf-O8-x22"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="ugx-Tv-2x2" firstAttribute="top" secondItem="3mU-dL-Nqr" secondAttribute="top" id="0CA-nI-afe"/>
+                            <constraint firstItem="fQU-n8-bU2" firstAttribute="top" secondItem="3mU-dL-Nqr" secondAttribute="top" id="5jB-Qc-dSK"/>
+                            <constraint firstItem="Tlg-ad-au4" firstAttribute="leading" secondItem="3mU-dL-Nqr" secondAttribute="leading" id="7F9-6J-O7a"/>
+                            <constraint firstItem="3mU-dL-Nqr" firstAttribute="bottom" secondItem="Tlg-ad-au4" secondAttribute="bottom" id="B8r-F2-rfn"/>
+                            <constraint firstItem="3mU-dL-Nqr" firstAttribute="trailing" secondItem="Tlg-ad-au4" secondAttribute="trailing" id="BL9-Xi-xIf"/>
+                            <constraint firstItem="3mU-dL-Nqr" firstAttribute="trailing" secondItem="fQU-n8-bU2" secondAttribute="trailing" id="Bpt-hs-o87"/>
+                            <constraint firstItem="3mU-dL-Nqr" firstAttribute="trailing" secondItem="ugx-Tv-2x2" secondAttribute="trailing" id="NbV-UT-z07"/>
+                            <constraint firstItem="ugx-Tv-2x2" firstAttribute="height" secondItem="fQU-n8-bU2" secondAttribute="height" multiplier="0.8" id="YHq-uw-lGm"/>
+                            <constraint firstItem="3mU-dL-Nqr" firstAttribute="bottom" secondItem="fQU-n8-bU2" secondAttribute="bottom" id="fuS-8q-zdJ"/>
+                            <constraint firstItem="fQU-n8-bU2" firstAttribute="leading" secondItem="3mU-dL-Nqr" secondAttribute="leading" id="sAS-xv-oHc"/>
+                            <constraint firstItem="Tlg-ad-au4" firstAttribute="height" secondItem="fQU-n8-bU2" secondAttribute="height" multiplier="0.2" id="xD7-kL-5bz"/>
+                            <constraint firstItem="ugx-Tv-2x2" firstAttribute="leading" secondItem="3mU-dL-Nqr" secondAttribute="leading" id="zwe-5G-LxS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3mU-dL-Nqr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NNc-Ib-Ig9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150.72463768115944" y="151.63043478260872"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage_8p" width="1080" height="1920"/>
+    </resources>
+</document>
