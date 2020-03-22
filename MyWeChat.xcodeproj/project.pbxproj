@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E948401624261FA1001A4D70 /* LogInSwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948401524261FA1001A4D70 /* LogInSwitchingViewController.swift */; };
+		E94B995D242393B400311526 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B995C242393B400311526 /* RegisterViewController.swift */; };
+		E963005124276F8100CBAD4C /* LogIn3rdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963004F24276F8100CBAD4C /* LogIn3rdViewController.swift */; };
+		E963005224276F8100CBAD4C /* LogIn3rdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E963005024276F8100CBAD4C /* LogIn3rdViewController.xib */; };
 		E97065CE2421BA1A00ABCBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97065CD2421BA1A00ABCBF3 /* AppDelegate.swift */; };
 		E97065D02421BA1A00ABCBF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97065CF2421BA1A00ABCBF3 /* SceneDelegate.swift */; };
 		E97065D22421BA1A00ABCBF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97065D12421BA1A00ABCBF3 /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E948401524261FA1001A4D70 /* LogInSwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInSwitchingViewController.swift; sourceTree = "<group>"; };
+		E94B995C242393B400311526 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E963004F24276F8100CBAD4C /* LogIn3rdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn3rdViewController.swift; sourceTree = "<group>"; };
+		E963005024276F8100CBAD4C /* LogIn3rdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogIn3rdViewController.xib; sourceTree = "<group>"; };
 		E97065CA2421BA1A00ABCBF3 /* MyWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97065CD2421BA1A00ABCBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97065CF2421BA1A00ABCBF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +117,10 @@
 				E97065D32421BA1A00ABCBF3 /* Main.storyboard */,
 				E97065FD2421BB3A00ABCBF3 /* UserLogIn.storyboard */,
 				E9C5D622242225B000BD4CE0 /* UserLogInViewController.swift */,
+				E94B995C242393B400311526 /* RegisterViewController.swift */,
+				E963004F24276F8100CBAD4C /* LogIn3rdViewController.swift */,
+				E963005024276F8100CBAD4C /* LogIn3rdViewController.xib */,
+				E948401524261FA1001A4D70 /* LogInSwitchingViewController.swift */,
 				E97065D62421BA1B00ABCBF3 /* Assets.xcassets */,
 				E97065D82421BA1B00ABCBF3 /* LaunchScreen.storyboard */,
 				E97065DB2421BA1B00ABCBF3 /* Info.plist */,
@@ -241,6 +253,7 @@
 				E97065DA2421BA1B00ABCBF3 /* LaunchScreen.storyboard in Resources */,
 				E97065FE2421BB3A00ABCBF3 /* UserLogIn.storyboard in Resources */,
 				E97065D72421BA1B00ABCBF3 /* Assets.xcassets in Resources */,
+				E963005224276F8100CBAD4C /* LogIn3rdViewController.xib in Resources */,
 				E97065D52421BA1A00ABCBF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +282,10 @@
 				E97065D22421BA1A00ABCBF3 /* ViewController.swift in Sources */,
 				E97065CE2421BA1A00ABCBF3 /* AppDelegate.swift in Sources */,
 				E97065D02421BA1A00ABCBF3 /* SceneDelegate.swift in Sources */,
+				E963005124276F8100CBAD4C /* LogIn3rdViewController.swift in Sources */,
+				E94B995D242393B400311526 /* RegisterViewController.swift in Sources */,
 				E9C5D623242225B000BD4CE0 /* UserLogInViewController.swift in Sources */,
+				E948401624261FA1001A4D70 /* LogInSwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

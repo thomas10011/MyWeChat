@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--User Log In View Controller-->
         <scene sceneID="mZz-Ms-gJX">
             <objects>
-                <viewController id="6Oh-dP-blx" customClass="ViewController" customModule="MyWeChat" sceneMemberID="viewController">
+                <viewController id="6Oh-dP-blx" customClass="UserLogInViewController" customModule="MyWeChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CXU-w0-9m3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,6 +50,9 @@
                                                         <integer key="value" value="4"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="iNs-k4-Eg7" kind="presentation" modalPresentationStyle="fullScreen" id="BYJ-79-EB9"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5D-wz-yot">
                                                 <rect key="frame" x="60" y="47.333333333333371" width="120" height="40"/>
@@ -63,7 +66,7 @@
                                                         <fragment content="登录">
                                                             <attributes>
                                                                 <color key="NSColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="16"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="16"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -75,6 +78,9 @@
                                                         <integer key="value" value="4"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="login:" destination="6Oh-dP-blx" eventType="touchUpInside" id="hDM-DK-Hsn"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -109,6 +115,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NNc-Ib-Ig9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="150.72463768115944" y="151.63043478260872"/>
+        </scene>
+        <!--注册-->
+        <scene sceneID="Jlc-27-12q">
+            <objects>
+                <viewController id="Zv7-3m-XK1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1BS-zE-Rsk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="32K-pQ-Rws"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="注册" id="ukW-ma-xln">
+                        <barButtonItem key="leftBarButtonItem" title="返回" id="s9W-cA-0L1">
+                            <connections>
+                                <action selector="quit:" destination="fKg-Go-uOT" id="G6M-Dc-iqX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fKg-Go-uOT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1684" y="152"/>
+        </scene>
+        <!--Register View Controller-->
+        <scene sceneID="255-wN-Isl">
+            <objects>
+                <navigationController id="iNs-k4-Eg7" customClass="RegisterViewController" customModule="MyWeChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MXe-iW-CmT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Zv7-3m-XK1" kind="relationship" relationship="rootViewController" id="l0k-np-9cm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LLR-TB-jFr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904" y="152"/>
         </scene>
     </scenes>
     <resources>
